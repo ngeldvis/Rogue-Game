@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "6.0.0"
+    id 'checkstyle'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+configurations{
+  shadow
+}
+dependencies {
+
+    shadow 'com.googlecode.lanterna:lanterna:3.0.3'
+    shadow 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'com.googlecode.lanterna:lanterna:3.0.3'
+}
+
+
+
+run { 
+    standardInput = System.in 
+}
+jar {
+  manifest{
+
+  }
+}
+
+shadowJar {
+   archiveBaseName = 'A3'
+   classifier = ''
+   archiveVersion = ''
+
+}
+
+test {
+  useJUnit()
+  testLogging {
+      events "passed", "skipped", "failed" //, "standardOut", "standardError"
+
+      showExceptions true
+      exceptionFormat "full"
+      showCauses false
+      showStackTraces false
+      showStandardStreams = true
+    }
+}
+
+application {
+    mainClassName = "rogue.WindowUI"
+}

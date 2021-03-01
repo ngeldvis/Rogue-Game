@@ -1,0 +1,266 @@
+{
+	"room": [{
+			"id": 1,
+			"start": true,
+			"height": 10,
+			"width": 10,
+			"doors": [{
+					"dir": "S",
+					"con_room": 3,
+					"wall_pos": 4
+				},{
+					"dir": "E",
+					"con_room": 2,
+					"wall_pos": 4
+				}
+			],
+			"loot": [{
+					"id": 1,
+					"x": 3,
+					"y": 3
+				}]
+		},
+		{
+			"id": 2,
+			"start": false,
+			"height": 20,
+			"width": 20,
+			"doors": [{
+					"dir": "E",
+					"con_room": 5,
+					"wall_pos": 4
+				},
+				{
+					"dir": "S",
+					"con_room": 4,
+					"wall_pos": 8
+				},
+				{
+					"dir": "W",
+					"con_room": 1,
+					"wall_pos": 4
+				}
+			],
+			"loot": [{
+					"id": 2,
+					"x": 4,
+					"y": 4
+				},{
+					"id": 3,
+					"x": 7,
+					"y": 7
+				},{
+					"id": 4,
+					"x": 12,
+					"y": 12
+				},{
+					"id": 5,
+					"x": 16,
+					"y": 7
+				}
+			]
+		},
+		{
+			"id": 3,
+			"start": false,
+			"height": 20,
+			"width": 10,
+			"doors": [{
+					"dir": "E",
+					"con_room": 4,
+					"wall_pos": 17
+				},
+				{
+					"dir": "N",
+					"con_room": 1,
+					"wall_pos": 4
+				}
+			],
+			"loot": [{
+					"id": 6,
+					"x": 7,
+					"y": 3
+				},{
+					"id": 7,
+					"x": 2,
+					"y": 16
+				},{
+					"id": 8,
+					"x": 8,
+					"y": 18
+				}
+			]
+		},
+		{
+			"id": 4,
+			"start": false,
+			"height": 20,
+			"width": 20,
+			"doors": [{
+					"dir": "W",
+					"con_room": 3,
+					"wall_pos": 4
+				},
+				{
+					"dir": "N",
+					"con_room": 2,
+					"wall_pos": 8
+				},
+				{
+					"dir": "S",
+					"con_room": 6,
+					"wall_pos": 9
+				}
+			],
+			"loot": [{
+				"id": 9,
+				"x": 3,
+				"y": 3
+			},{
+				"id": 10,
+				"x": 17,
+				"y": 3
+			},{
+				"id": 11,
+				"x": 3,
+				"y": 17
+			},{
+				"id": 12,
+				"x": 17,
+				"y": 17
+			}
+		]
+		},
+		{
+			"id": 5,
+			"start": false,
+			"height": 10,
+			"width": 20,
+			"doors": [{
+					"dir": "W",
+					"con_room": 2,
+					"wall_pos": 4
+				}
+			],
+			"loot": [{
+				"id": 13,
+				"x": 5,
+				"y": 5
+			},{
+				"id": 14,
+				"x": 14,
+				"y": 3
+			}
+		]
+		},
+		{
+			"id": 6,
+			"start": false,
+			"height": 8,
+			"width": 8,
+			"doors": [{
+				"dir": "N",
+				"con_room": 4,
+				"wall_pos": 3
+			}],
+			"loot": [{
+				"id": 15,
+				"x": 2,
+				"y": 2
+			}]
+		}
+
+	],
+	"items": [{
+			"id": 1,
+			"name": "Health Potion",
+			"type": "Potion",
+			"description": "you feel better"
+		},
+		{
+			"id": 2,
+			"name": "Scroll of Fireball",
+			"type": "Scroll",
+			"description": "A 20 foot ball of flame hurtles away from you"
+		},
+		{
+			"id": 3,
+			"name": "Mango",
+			"type": "Food",
+			"description": "my that was a yummy mango!"
+		},
+		{
+			"id": 4,
+			"name": "Elixir",
+			"type": "Potion",
+			"description": "You drink the potion and feel better: The glass bottle shatters when it lands"
+		},
+		{
+			"id": 5,
+			"name": "Ring of Fire",
+			"type": "Ring",
+			"description": "Can create fire"
+		},
+		{
+			"id": 6,
+			"name": "Iron Chestplate",
+			"type": "Clothing",
+			"description": "Used to protect yourself"
+		},
+		{
+			"id": 7,
+			"name": "Silver Boots",
+			"type": "Clothing",
+			"description": "Can move faster with this"
+		},
+		{
+			"id": 8,
+			"name": "Golden Eye",
+			"type": "Food",
+			"description": "Edible eye that grants you anything"
+		},
+		{
+			"id": 9,
+			"name": "Diamon Hat",
+			"type": "Clothing",
+			"description": "Rare armour"
+		},
+		{
+			"id": 10,
+			"name": "Scroll of Wisdom",
+			"type": "Scroll",
+			"description": "ancient item"
+		},
+		{
+			"id": 11,
+			"name": "Scroll of Water",
+			"type": "Scroll",
+			"description": "water ability"
+		},
+		{
+			"id": 12,
+			"name": "Scroll of Earth",
+			"type": "Scroll",
+			"description": "earth ability"
+		},
+		{
+			"id": 13,
+			"name": "Scroll of Air",
+			"type": "Scroll",
+			"description": "air ability"
+		},
+		{
+			"id": 14,
+			"name": "Scroll of Fire",
+			"type": "Scroll",
+			"description": "fire ability"
+		},
+		{
+			"id": 15,
+			"name": "Golden Apple",
+			"type": "SmallFood",
+			"description": "yummy apple thats shiny: You've thrown the apple away"
+		}
+
+	]
+}

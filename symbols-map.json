@@ -1,0 +1,56 @@
+{
+    "symbols": [
+        {
+            "name": "PASSAGE",
+            "symbol": "#"
+        },
+        {
+            "name": "DOOR",
+            "symbol": "+"
+        },
+        {
+            "name": "FLOOR",
+            "symbol": "."
+        },
+        {
+            "name": "PLAYER",
+            "symbol": "@"
+        },
+        {
+            "name": "GOLD",
+            "symbol": "*"
+        },
+         {
+            "name": "NS_WALL",
+            "symbol": "-"
+        },
+         {
+            "name": "EW_WALL",
+            "symbol": "|"
+        },
+                {
+            "name": "POTION",
+            "symbol": "!"
+        },
+                {
+            "name": "SCROLL",
+            "symbol": "?"
+        },
+                {
+            "name": "CLOTHING",
+            "symbol": "]"
+        },
+                       {
+            "name": "FOOD",
+            "symbol": ":"
+        },
+        {
+            "name": "RING",
+            "symbol": "^"
+        },
+        {
+            "name": "SMALLFOOD",
+            "symbol": ";"
+        },
+    ]
+}
